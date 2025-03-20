@@ -1,0 +1,92 @@
+@font-face { 
+    font-family: MorrisRomanBlack;
+    src: url("Assets\\morris_roman\\MorrisRomanBlack.otf"); 
+} 
+
+html{
+    font-family: MorrisRomanBlack;
+    font-size: 1.5rem;
+    color:rgb(128, 128, 128);
+    background-image:
+        linear-gradient(rgba(0, 0, 0, 0.623), black),
+        url("Assets/Background.jpg");
+    background-size:100%;
+}
+
+.container{
+    display: flex;
+    gap: 1rem;
+}
+
+hr{
+    border-color: rgb(128, 128, 128);
+}
+
+h1,h2{
+    color: white;
+    text-align: center;
+}
+
+li{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+li h3{
+    color: white;
+}
+
+
+header{
+    padding: 1rem;
+    flex-direction: row;
+    background-color: rgb(20, 20, 20);
+
+    margin: -8px;
+    margin-bottom: 1rem;
+}
+
+img{
+    border:solid black 5px;
+    border-radius: 1rem;
+}
+
+#page_title{
+    align-content: center;
+    flex: 1;
+    text-align: center;
+}
+
+main{
+    flex: 2;
+}
+
+
+#curiosities{
+    flex: 1;
+}
+
+main, #curiosities{
+    padding: 1.5rem;
+    background-color: rgb(31, 31, 31);
+    border-radius: 1rem;
+    border: solid black 5px;
+}
+
+footer{
+    padding: 1rem;
+    flex-direction: row;
+    background-color: rgb(20, 20, 20);
+    margin: -8px;
+    margin-top: 1rem;
+    text-align: center;
+}
+
+a{
+    color: rgb(190, 0, 0);
+    text-decoration:none;
+}
+
+a:link:active, a:visited:active {
+    color: rgb(78, 0, 0);
+  }
